@@ -1,4 +1,4 @@
-package Silver;
+package Baekjoon.Silver;
 
 import java.io.Serializable;
 import java.util.ArrayList;

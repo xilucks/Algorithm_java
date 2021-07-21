@@ -1,8 +1,6 @@
-package Silver;
+package Baekjoon.Silver;
 //wrong
 import java.io.*;
-import java.nio.Buffer;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Main_1003 {

@@ -1,4 +1,4 @@
-package Silver;
+package Baekjoon.Silver;
 
 import java.io.*;
 import java.util.StringTokenizer;

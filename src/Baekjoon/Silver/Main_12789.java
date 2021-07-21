@@ -1,4 +1,4 @@
-package Silver;
+package Baekjoon.Silver;
 import java.util.LinkedList;
 import java.util.Scanner;
 import java.util.Stack;

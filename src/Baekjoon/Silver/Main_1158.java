@@ -1,4 +1,4 @@
-package Silver;
+package Baekjoon.Silver;
 //wrong
 import java.util.ArrayList;
 

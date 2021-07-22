@@ -1,7 +1,5 @@
-package Hello_algo.Day2;
+package Hello_algo.Day_2;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class main_2123 {

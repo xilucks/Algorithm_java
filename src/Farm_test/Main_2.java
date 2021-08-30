@@ -10,7 +10,6 @@ public class Main_2 {
         String str = br.readLine();
         String[] nums = str.split(" ");
         int[] arr = new int[nums.length];
-
         for(int i = 0 ; i<nums.length;i++){
             arr[i] = Integer.parseInt(nums[i]);
         }
@@ -19,8 +18,6 @@ public class Main_2 {
             if(arr[i] > max){
                 max = arr[i];
             }
-
-
         }
         StringBuilder sb = new StringBuilder();
         for(int i = 0 ; i<nums.length; i++){
@@ -29,7 +26,6 @@ public class Main_2 {
             }
         }
         System.out.println(sb);
-
 
     }
 }

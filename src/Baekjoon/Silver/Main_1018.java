@@ -79,12 +79,8 @@ public class Main_1018 {
                     }
                     ans = Integer.min(ans, tmp);
 
-
                 }
-
-
             }
-
         }
         System.out.println(ans);
     }

@@ -1,4 +1,4 @@
-package programmers.level1;
+package programmers.level2;
 
 public class Solution_12913 {
     static int solution(int[][] land) {

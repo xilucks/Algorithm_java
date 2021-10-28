@@ -7,7 +7,6 @@ public class midterm_03 {
         Scanner sc = new Scanner(System.in);
         int computer = 0;
 
-
         System.out.println("가위바위보 준비 되었습니다.");
         System.out.print("숫자를 입력하세요: (0 : 가위 , 1 : 바위 , 2 : 보) 의미합니다.");
         System.out.print("가위바위보>>");
@@ -19,9 +18,6 @@ public class midterm_03 {
         }
         else if (me == 2){
             System.out.println("당신이 패배하였습니다.");
-        }
-        else{
-            System.out.println("문제엔 없는데 비긴거겠죠 뭐");
         }
     }
 }

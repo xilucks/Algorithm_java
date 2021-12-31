@@ -129,13 +129,5 @@ public class forexam {
             System.out.print(num[k]);
             System.out.print(" ");
         }
-
-
-
-
-
-
-
-
     }
 }

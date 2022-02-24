@@ -12,21 +12,19 @@ public class Main_2123 {
 
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
-
         int[] nums = new int[N];
 
-        String num = br.readLine();
+        st = new StringTokenizer(br.readLine());
         for(int i = 0; i<N; i++){
             nums[i] = Integer.parseInt(st.nextToken());
         }
 
         int ans = 0 ;
-        for(int i = 0; i <N-2;i++){
-            for (int j = i; j <N-1; j++){
-                for(int k = j; k<N; k++){
-                    int total = nums[i] + nums[j]+nums[k];
-
-                    if(total == 0 || total<=N && total >ans){
+        for(int i = 0; i <N; i++){
+            for (int j = i+1; j<N; j++){
+                for(int k = j+1; k<N; k++){
+                    int total = nums[i] + nums[j]+ nums[k];
+                    if(total == 0 || total <= M && total >ans){
                         ans = total;
                     }
                 }

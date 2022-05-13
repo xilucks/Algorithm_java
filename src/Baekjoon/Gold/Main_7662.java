@@ -42,7 +42,6 @@ public class Main_7662 {
                     if(num == -1){
                         while(!minQueue.isEmpty() && hm.get(minQueue.peek()) <= 0){
                             minQueue.poll();
-                            System.out.println('m');
                         }
 
                         if (minQueue.isEmpty()){
